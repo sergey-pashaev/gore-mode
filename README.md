@@ -16,4 +16,4 @@ Simple comint-based mode for gore (command-line evaluator for golang code)
 * gore-expr-mode : `C-<return>` wraps user input like so: `println(" + %user_input% + ")` then sends it to gore
 
 # screenshot
-![screenshot](http://raw.github.com/sergey-pashaev/gore-mode/master/img/scr.png)
+![screenshot](https://github.com/sergey-pashaev/gore-mode/raw/master/img/scr.png)
