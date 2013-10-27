@@ -1,4 +1,4 @@
-;;; gore-mode.el --- a simple comint-based mode for gore (command-line evaluator for golang code)
+;;; gore-mode.el --- Simple mode for gore, a command-line evaluator for golang.
 
 ;; Copyright (C) 2013  Sergey Pashaev
 
@@ -105,6 +105,7 @@
   (setq gore-expr-mode t)
   (comint-send-input))
 
+;;;###autoload
 (defun run-gore ()
   "Run a go repl in `*gore*' buffer."
   (interactive)
@@ -113,6 +114,7 @@
   (set-buffer gore-buffer)
   (gore-mode))
 
+;;;###autoload
 (define-derived-mode gore-mode comint-mode "GORE"
   "Run a go repl in current buffer."
   :syntax-table go-mode-syntax-table
