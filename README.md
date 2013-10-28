@@ -2,6 +2,7 @@
 Simple comint-based mode for gore (command-line evaluator for golang code)
 
 # dependencies
+* `go-mode` (available on MELPA)
 * [gore](https://github.com/sriram-srinivasan/gore)
 
 # install

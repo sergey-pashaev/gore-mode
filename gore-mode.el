@@ -43,7 +43,7 @@
 
 ;;; Usage:
 ;;
-;; First of all install gore from here:
+;; First of all install go-mode from MELPA and gore from here:
 ;;  http://github.com/sriram-srinivasan/gore
 ;;
 ;; Put gore-mode.el in your load path:
@@ -58,6 +58,7 @@
 ;; M-x gore-mode to enable gore-mode in current-buffer
 
 (require 'comint)
+(require 'go-mode)
 
 (defconst gore-output-prompt "GORE> ")
 (defconst gore-input-prompt  ">>>>> ")
