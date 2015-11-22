@@ -6,6 +6,7 @@
 ;; Maintainer: Sergey Pashaev <sergey.pashaev@gmail.com>
 ;; Created: 27th October 2013
 ;; Keywords: go, repl
+;; Package-Requires: ((go-mode "1.0.0"))
 
 ;; This file is NOT part of GNU Emacs.
 
